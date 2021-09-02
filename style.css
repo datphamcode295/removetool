@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+
+}
+.filein,.fileout{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.fileout{
+    width: 40%;
+    height: 100%;
+}
+.bt{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.bt button {
+    margin-left: 5px;
+}
